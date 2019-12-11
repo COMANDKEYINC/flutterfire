@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 #import "FLTRequestFactory.h"
-#import "FLTFirebaseAdMobPlugin.h"
+#import "FirebaseAdMobPlugin.h"
 #import "GoogleMobileAds/GADExtras.h"
 #import "GoogleMobileAds/GoogleMobileAds.h"
 
