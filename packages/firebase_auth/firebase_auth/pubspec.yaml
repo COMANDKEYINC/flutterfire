@@ -30,7 +30,12 @@ dependencies:
   # validation, so we set a ^ constraint.
   # TODO(amirh): Revisit this (either update this part in the  design or the pub tool).
   # https://github.com/flutter/flutter/issues/46264
-  firebase_auth_web: ^0.1.1
+  #firebase_auth_web: ^0.1.1
+  firebase_auth_web:
+    git:
+      url: https://github.com/COMANDKEYINC/flutterfire.git
+      ref: develop
+      path: packages/firebase_auth/firebase_auth_web
   # The design on https://flutter.dev/go/federated-plugins was to leave
 
   flutter:
