@@ -31,7 +31,12 @@ dev_dependencies:
     sdk: flutter
   firebase_auth:
     path: ../firebase_auth
-  firebase_core_platform_interface: ^1.0.0
+  #firebase_core_platform_interface: ^1.0.0
+  firebase_auth_platform_interface:
+    git:
+      url: https://github.com/COMANDKEYINC/flutterfire.git
+      ref: develop
+      path: packages/firebase_auth/firebase_auth_platform_interface
   firebase_core_web:
     path: ../../firebase_core/firebase_core_web
 
